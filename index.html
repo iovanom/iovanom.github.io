@@ -1,451 +1,114 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Ivan Majeru</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <blink rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-        <style>
-            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-            .devicons {
-                font-size: 18px;
-            }
-            span.postion {
-                font-style: italic;
-            }
-        </style>
-    </head>
-    <body class="w3-light-grey">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Majeru - Cross-Functional Software Developer</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #33FF33;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        a {
+            color: #33AAFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            color: #FFFFFF;
+        }
+        .terminal {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+        }
+        .prompt::before {
+            content: "$ ";
+            color: #00FF00;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        header {
+            border-bottom: 2px solid #33FF33;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .intro {
+            border: 1px solid #33FF33;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <header>
+            <h1>Ivan Majeru</h1>
+            <p class="prompt">Cross-Functional Software Developer</p>
+        </header>
 
-        <!-- Page Container -->
-        <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-            <!-- The Grid -->
-            <div class="w3-row-padding">
-
-                <!-- Left Column -->
-                <div class="w3-third">
-
-                    <div class="w3-white w3-text-grey w3-card-4">
-                        <div class="w3-display-container w3-twothird" >
-                            <div class="w3-container w3-text-black">
-                                <h2>Ivan Majeru</h2>
-                                <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
-                                <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chisinau, Rep. Moldova</p>
-                                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ivanmajeru@gmail.com</p>
-                                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(+373)78016899</p>
-                            </div>
-                        </div>
-                        <div class="w3-display-Container w3-third" >
-                            <img src="./img/avatar.jpg" align="right" style="width:100%" alt="Avatar">
-                        </div>
-                        <div style="clear: both"></div>
-                        <div class="w3-container">
-                            <hr>
-
-                            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-                            <p><i class="devicons devicons-python w3-xlarge w3-text-teal"></i>python</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-                            </div>
-                            <p><i class="devicons devicons-javascript w3-xlarge w3-text-teal"></i>JavaScript (node.js and frontend)</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
-                                    <div class="w3-center w3-text-white">90%</div>
-                                </div>
-                            </div>
-                            <p><i class="devicons devicons-php w3-xxlarge w3-text-teal"></i>PHP</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-                            </div>
-                            <p><i class="devicons devicons-html5 w3-xlarge w3-text-teal"></i>HTML/CSS</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-                                </div>
-                                <p>C/C++</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
-                            </div>
-                            <p><i class="devicons devicons-linux w3-xlarge w3-text-teal"></i>Linux</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-                            </div>
-                            <p><i class="devicons devicons-rust w3-xlarge w3-text-teal"></i>Rust</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-                            </div>
-                            <p><i class="devicons devicons-go w3-xlarge w3-text-teal"></i>Go</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-                            </div>
-                            <p><i class="devicons devicons-java w3-xlarge w3-text-teal"></i>Java/Spring</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-                            </div>
-                            <br>
-                            <br>
-
-                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-                            <p>Romanian</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-                            </div>
-                            <p>Russian</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
-                            </div>
-                            <p>English</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:65%"></div>
-                            </div>
-                            <br>
-                        </div>
-                    </div><br>
-
-                    <!-- End Left Column -->
-                </div>
-
-                <!-- Right Column -->
-                <div class="w3-twothird">
-                    <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-address-card fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Summary</h2>
-                        <div class="w3-container">
-                            <p>
-I am a skilled Software Developer valued for driving quality and stability throughout all phases of software development projects. I specialize in Python and PHP, have strong knowledge of Linux systems, JavaScript and Databases. Also have a wide experience with all actual technologies. I focus on producing high-quality, intuitive, maintainable and bug-free software. Have proven to be a reliable colleague and a responsible worker. 
-                            </p>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-                        <h2 class="w3-text-grey w3-padding-16">
-                            <i class="fa fa-tasks fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Key Skills
-                        </h2>
-                        <div class="w3-container">
-                            <h6>
-                                Programming / Technologies: 
-                            </h6>
-                            <ul>
-                                <li>
-Python (3 years) - I used Python in many, different project. I worked with Python 3, in many projects using asyncio, also with many Python frameworks like aiohttp, Falcon, Flask, Django. I used many Python libs like Celery, Motor, SQLAlchemy and other.
-                                </li>
-                                <li>
-PHP (3 years) - I worked with PHP in some projects, used frameworks like Laravel, Lumen, Yii2, Zend. Also I worked with Wordpress, Joomla!, PrestaShop.
-                                </li>
-                                <li>
-Linux/Bash (3 years) - I work in a Linux  environment; I create the Bash scripts for various tasks.
-                                </li>
-                                <li>
-Databases (3 years) - Worked with MySQL, PostgreSQL, MongoDB, SQLite;
-                                </li>
-                                <li>
-JavaScript (3 years) - I worked with JavaScript for frontend development, using for this reason various frameworks and libs, like jQuery, AngularJS, Angular, Vue.js, webpack, gulp.
-                                </li>
-                                <li>
-Node.js (2 year) - Create microservices in Node.js by using the Express framework and MongoDB.
-                                </li>
-                                <li>
-Java (Spring) (1 year) - Worked with Java and Spring Framework.
-                                </li>
-                                <li>
-ASP.NET MVC4 (1 year) - Worked with C# and ASP.MVC4.
-                                </li>
-                                <li>
-Other - GOlang, C/C++, redis, protobuf/grpc, graphql, raspberryPI, arduino.
-                                </li>
-                            </ul>
-                            <hr>
-                            <h6>Tools: </h6>
-                            <p>
-PostgreSQL, MySQL, MongoDB, ElasticSearch, Git, Docker, Vagrant, Vim, Eclipse, NetBeans.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-                        <h2 class="w3-text-grey w3-padding-16">
-                            <i class="fa fa-folder fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Career Activities
-                        </h2>
-                        <div class="w3-container">
-                            <h4>
-                                Smart Hub “Magenta Speaker” on  “Deutsche Telekom”
-                            </h4>
-                            <h6>Position: Software Developer.</h6>
-                            <p>
-A smart speaker solution for “Deutsche Telekom” like “Alexa” from “Amazon”. Worked on both sides, device programming and cloud programming. Created the logic on client side with python and asyncio and some builds jobs with yocto. On cloud side created the services în java using the spring framework and skills using the python.
-                            </p>
-                            <h6>
-                                Tags: python, asyncio, java, spring, yocto, ElasticSearch, mongoDB, docker, kubernetes.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Sympletim
-                            </h4>
-                            <h6>Position: Full Stack Developer</h6>
-                            <p>
-                            This is a solution for management the workers time and workers events like în google calendar. On this project I worked with node.js with express framework and MySql with elasticsearch solution for search on backend side and with Vue.js on frontend side. (<a href="http://simpletym.com">simpletym.com</a>)
-                            </p>
-                            <h6>
-                                Tags: node.js, express.js, vue.js, MySQL, ElasticSearch.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Sansape infrastructure
-                            </h4>
-                            <h6>Position: Full Stack Developer</h6>
-                            <p>
-The “Sensape” is a German company that have a solution with live marketing. I’ve integrated the “Swarovski” api on their solutions and created some products feeds processing solution. Here I’ve worked with node.js and express framework for creating microservices infrastructure with mongoDb as database.
-                            </p>
-                            <h6>
-                                Tags: nodejs, mongoDb, REST API, express.js
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                INFRA
-                            </h4>
-                            <h6>Position: Software Developer</h6>
-                            <p>
-A combination of microservices for infrastructure reasons. The main microservices are authorization microservice, update microservice, feedback microservice. In this project we used the php lumen micro framework for microservices with REST API and the JWT and Two-Way SSL Authentication for authorization. For ssl certificates generating and management we used the openssl and bash scripts.
-                            </p>
-                            <h6>
-Tags: php, lumen, JWT, REST API,  Two-Way SSL Authentication, openssl, bash scripting.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Certificate Management
-                            </h4>
-                            <h6>Position: Software Developer</h6>
-                            <p>
-A utils for generating, stored and provide the ssl certificates for clients or other microservices. For this projects we used the python in connection with PyOpenSSL and the falcon framework for REST API microservice for provided the certificates.
-                            </p>
-                            <h6>
-Tags: python, falcon, REST API, PyOpenSSL, SWL, Two-Way SSL Authentication
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                SWL
-                            </h4>
-                            <h6>Position: Software Developer</h6>
-                            <p>
-A website builder for service provider businesses, like hotels, restaurants, beauty salons and others. In this project I used Python - for static site generator, Celery - for task distribution with RabbitMQ, Vue.js for some module frontend. Also I developed the Admin Panel, where I used the aiohttp for backend and PostgresDB as the database.
-                            </p>
-                            <h6>
-Tags: Linux Bash Scripting, Python3, asyncio, aiohttp, Celery, RabbitMQ, Vue.js, Angular, PostgresDB, MongoDB, JWT, REST API, OAuth 2.0.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Absence.pro
-                            </h4>
-                            <h6>Position: Full Stack Developer.</h6>
-                            <p>
-A web platform for tracking the absences in a team. In this project I worked with aiohttp for backend, with Angular for frontend and MongoDB as the database. 
-                            </p>
-                            <h6>
-                            Tags: Python3, asyncio, aiohttp, angular, MongoDB, tracking, JWT, REST API.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Web based(REST) configuration library for C applications
-                            </h4>
-                            <h6>Position: Software Developer</h6>
-                            <p>
-This project is for generating the C structs from simple yaml files. In this project I used the python for generating the C sources and headers and then compile them in C object files.
-                            </p>
-                            <h6>
-                                Tags: C, python, cmake.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Web based(REST) configuration library for C applications
-                            </h4>
-                            <h6>Position: Software Developer</h6>
-                            <p>
-This project is for generating the C structs from simple yaml files. In this project I used the python for generating the C sources and headers and then compile them in C object files.
-                            </p>
-                            <h6>
-                                Tags: C, python, cmake.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                standup.guru
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-A web platform for stand-up meetings. In this project I worked with Falcon framework (Python) for backend, AngularJS for frontend and MongoDB as the database. For reminder system I used the Celery with RabbitMQ.
-                            </p>
-                            <h6>
-                                Tags: Python, Falcon, angularJS, MongoDB, Celery, RabbitMQ, JWT, REST API.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Central Billing Platform
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-This is web platform for centralized the billing for various products. In this project I worked with Laravel and AngularJS and with PostgreSQL as database.
-                            </p>
-                            <h6>
-                            Tags: Laravel, AngularJS, REST API, JWT, OAuth 2.0, Two-Way SSL Authentication
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Universal Web Configurator 
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-                                A tool that can create configuration web interfaces for virtually any kind of application. In this project I used the Falcon framework (Python) for backend and AngularJS for frontend.
-                            </p>
-                            <h6>
-Tags: Linux, Bash, Laravel, AngularJS, JWT.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Pyramidal
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-A server-side application management for Linux. In this project I worked with PHP framework Laravel for backend and AngularJS for frontend.
-                            </p>
-                            <h6>
-Tags: Linux, Bash, Python, Build System, Laravel, AngularJS.
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                dec.edu
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-An education system with web interface. In this project I worked with Yii2 framework (PHP) and MySQL database.
-                            </p>
-                            <h6>
-Tags: Yii2, MySQL, Bootstrap
-                            </h6>
-                            <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h4>
-                                Cash
-                            </h4>
-                            <h6>Position: Full-Stack Developer</h6>
-                            <p>
-An ERP ( enterprise resource planning) and accounting system with web interfaces. In this project I worked with ASP.NET MVC 4(C#) framework.
-                            </p>
-                            <h6>
-Tags:  ASP.NET MVC 4(C#), ERP, BI, HTML, CSS
-                            </h6>
-                            <hr>
-                        </div>
-                    </div>
-
-
-                    <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience in Domain</h2>
-                        <div class="w3-container">
-                          <h5 class="w3-opacity"><b>Back-End Developer at Retently</b></h5>
-                          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                          <p>
-                            <a href="https://retently.com" target="_blank">Retently</a> is an automated survey platform using cross channel surveys.
-                            On this project I'm working with Node.js, MongoDb and ElasticSearch.
-                          
-                          </p>
-                          <hr>
-                        </div>
-
-                        <div class="w3-container">
-                            <h5 class="w3-opacity"><b>Full Stack Developer / smartsoftdev.eu</b></h5>
-                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - August 2019</h6>
-                            <p>
-I started as a PHP developer for the first project - a server-side application management for Linux. I implemented cool features like backups, manual and automatic migrations, automatic updates  and more. Soon it  was necessary for me to use the other technologies that I was familiar with, like Python and JavaScript and Linux system scripting.  Along the way I learned new skills and started to use them.
-                            </p>
-                            <hr>
-                        </div>
-                        <div class="w3-container">
-                            <h5 class="w3-opacity"><b>Full Stack Developer / Freelance </b></h5>
-                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2013 - Feb 2015</h6>
-                            <p>I've worked as a freelancer using PHP, Kohana Framework, Zend Framework, Wordpress, JavaScript with Jquery on Frontend.</p>
-                            <hr>
-                        </div>
-                    </div>
-
-                    <div class="w3-container w3-card-2 w3-white">
-                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-                        <div class="w3-container">
-                            <h5 class="w3-opacity"><b>State University of Moldova</b></h5>
-                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2012</h6>
-                            <p>Master Degree in Engineering Science</p>
-                            <hr>
-                        </div>
-                        <div class="w3-container">
-                            <h5 class="w3-opacity"><b>State Univerisy of Moldova</b></h5>
-                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2010</h6>
-                            <p>Licence Degree in Engineering Science</p>
-                            <hr>
-                        </div>
-                    </div>
-
-                    <!-- End Right Column -->
-                </div>
-
-                <!-- End Grid -->
-            </div>
-
-            <!-- End Page Container -->
+        <div class="intro">
+            <p>Passionate about building efficient, scalable, and innovative software solutions with expertise in Golang, Python, and modern backend technologies.</p>
         </div>
 
-        <footer class="w3-container w3-teal w3-center w3-margin-top">
-            <p>Find me on social media.</p>
-            <a href="https://www.facebook.com/ivanmajeru">
-                <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            </a>
-            <a href="https://vk.com/ivanmajeru">
-                <i class="fa fa-vk w3-hover-opacity"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ivan-majeru-12306878/">
-                <i class="fa fa-linkedin w3-hover-opacity"></i>
-            </a>
-            <p>2017</p>
-        </footer>
+        <div class="section">
+            <p>Email: <a href="mailto:ivan@majeru.org">ivan@majeru.org</a></p>
+            <p>Phone: +37378016899 (Telegram, Viber, WhatsApp)</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ivan-majeru-12306878/" target="_blank">linkedin.com/in/ivan-majeru-12306878</a></p>
+            <p>GitHub: <a href="https://github.com/iovanom" target="_blank">github.com/iovanom</a></p>
+        </div>
 
-    </body>
+        <div class="section">
+            <h2>Skills</h2>
+            <p class="prompt">Languages: Golang, Python, Node.js, Rust</p>
+            <p class="prompt">Backend: Nest.js, Prisma.js, aiohttp, Flask, Django, Express</p>
+            <p class="prompt">Frontend (basic): Vue.js, Angular, React</p>
+            <p class="prompt">Databases: PostgreSQL, MongoDB, MySQL, SQLite, ElasticSearch, Redis</p>
+            <p class="prompt">Tools: Linux, Bash, Docker, Kubernetes, Git, Jenkins, Vagrant, Vim</p>
+            <p class="prompt">AI & NLP: LLM integration, Prompt Engineering, Telegram Bots</p>
+            <p class="prompt">Others: Microservices, REST APIs, GraphQL, gRPC, Raspberry Pi, Arduino</p>
+        </div>
+
+        <div class="section">
+            <h2>Current Position</h2>
+            <p class="prompt">Senior Cross-Functional Developer @ <a href="https://retently.com" target="_blank">Retently</a> (2019–present)</p>
+            <ul>
+                <li>- Backend development: Node.js, MongoDB, ElasticSearch.</li>
+                <li>- DevOps: Deployment automation, CI/CD, Linux server management.</li>
+                <li>- External integrations: Shopify, Gorgias, Klaviyo, Salesforce, HubSpot.</li>
+                <li>- AI/LLM: Custom prompt engineering, automation via Telegram Bots.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Interests</h2>
+            <p class="prompt">- Scalable backend architectures (Golang)</p>
+            <p class="prompt">- AI and NLP technologies</p>
+            <p class="prompt">- Distributed Systems & Blockchain</p>
+            <p class="prompt">- Modern DevOps practices and CI/CD</p>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <p class="prompt">Romanian (native), Russian (advanced), English (good)</p>
+        </div>
+    </div>
+</body>
 </html>
+
